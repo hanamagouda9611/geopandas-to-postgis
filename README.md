@@ -32,14 +32,25 @@ Install them using:
 ```bash
 pip install geopandas sqlalchemy psycopg2-binary geoalchemy2 matplotlib
 ```
+---
+## ⚙️ Usage
 
-⚙️ Usage
-1.Launch the Jupyter Notebook.
-2.Replace the file path 'filepath/bengaluru.geojson' with the actual path to your GeoJSON file.
-3.Run the notebook cells in order.
-4.The script will:
-  Create a database named bengaluru
-  Enable PostGIS
-  Import your GeoJSON into a table called bengaluru_points
-  Fetch and visualize the data
-  Clean up (drop the table and database)
+1. Launch the Jupyter Notebook.
+
+2. Replace the file path 'filepath/bengaluru.geojson' with the actual path to your GeoJSON file.
+
+3. Run the notebook cells in order.
+
+4. The script will:
+
+    ! Create a database named bengaluruu
+  
+    !  Enable PostGIS
+  
+    ! Import your GeoJSON into a table called bengaluru_points
+  
+    ! Fetch and visualize the data
+  
+    ! Clean up (drop the table and database)
+  
+---
